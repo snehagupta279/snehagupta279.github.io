@@ -2,17 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sneha Gupta — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sneha Gupta</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="photograph.jpeg" />
+  <meta name="description" content="Sneha Gupta — Software Engineering Portfolio" />
+  <meta property="og:title" content="Sneha Gupta — Portfolio" />
+  <meta property="og:description" content="Software Developer | Azure | Microsoft Intern" />
+  <meta property="og:image" content="photograph.jpeg" />
+  <meta property="og:type" content="website" />
   <script defer src="script.js"></script>
 </head>
 <body>
-  <section class="hero container">
-    <img src="Photograph.jpeg" alt="Sneha Gupta" class="hero-photo" />
-    <h1 class="hero-name">Sneha Gupta</h1>
-    <p class="hero-subtitle">B.Tech Computer Science • Software Engineering Intern @ Microsoft</p>
-  </section>  
+
+  <!-- INTRO SECTION -->
+  <section class="intro container">
+    <img src="Photograph.jpeg" alt="Sneha Gupta" class="profile-photo" />
+    <h1 class="intro-name">Sneha Gupta</h1>
+    <p class="intro-subtitle">Software Engineer • B.Tech CSE • Microsoft Intern</p>
+    <button class="btn download-btn" onclick="window.open('Sneha_Gupta_Resume.pdf')">Download Resume</button>
+  </section>
+
+  <!-- NAVIGATION -->
   <header class="site-header">
     <nav class="nav container">
       <ul class="nav-links">
@@ -26,13 +37,13 @@
     </nav>
   </header>
 
+  <!-- ABOUT SECTION -->
   <main class="container">
     <section id="about" class="card">
       <div class="row">
         <div class="col about-left">
           <h2>About</h2>
           <p>Hello! I'm <strong>Sneha Gupta</strong>, a Computer Science student with a passion for building scalable software and automations. I enjoy working at the intersection of cloud, backend systems, and developer tooling.</p>
-          <p class="muted small">Resume source: uploaded file attached to this conversation.</p>
           <div class="links">
             <a href="https://www.linkedin.com/in/sneha-gupta-016015269/" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://github.com/snehagupta279" target="_blank" rel="noopener">GitHub</a>
@@ -50,6 +61,7 @@
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
     <section id="experience" class="card">
       <h2>Experience</h2>
       <div class="timeline">
@@ -66,6 +78,7 @@
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects" class="card">
       <h2>Selected Projects</h2>
       <div class="grid">
@@ -74,19 +87,16 @@
           <p>Tool to help programmers find and fix syntax errors with AI + rule-based guidance. (May 2025)</p>
           <a class="link-more" href="#contact">Ask for demo</a>
         </div>
-
         <div class="project">
           <h3>Billing Management System</h3>
           <p>Java (Swing) app connecting to MySQL to generate and manage bills for shopkeepers. (2024)</p>
           <a class="link-more" href="#contact">View code</a>
         </div>
-
         <div class="project">
           <h3>Sentiment Analysis on YouTube Comments</h3>
           <p>Collected comments, trained ML models to classify sentiment (positive/negative/neutral).</p>
           <a class="link-more" href="#contact">View writeup</a>
         </div>
-
         <div class="project">
           <h3>Ticket Management System</h3>
           <p>Python (Tkinter) + SQL based ticketing tool for issue tracking and admin assignment.</p>
@@ -95,16 +105,18 @@
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills" class="card">
       <h2>Skills</h2>
       <div class="chips">
-        <span> C# </span><span> .NET 8 </span><span> Python </span><span> C/C++ </span><span> Java </span>
-        <span> Azure SDK & REST APIs </span><span> HTML/CSS/JS </span><span> SQL </span>
+        <span>C#</span><span>.NET 8</span><span>Python</span><span>C/C++</span><span>Java</span>
+        <span>Azure SDK & REST APIs</span><span>HTML/CSS/JS</span><span>SQL</span>
       </div>
       <h3 class="mt">Core CS</h3>
       <p class="muted">Data Structures & Algorithms, OOP concepts</p>
     </section>
 
+    <!-- EDUCATION -->
     <section id="education" class="card">
       <h2>Education</h2>
       <ul>
@@ -113,6 +125,7 @@
       </ul>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="card contact">
       <h2>Contact</h2>
       <p>If you'd like to collaborate, hire, or chat — reach out!</p>
@@ -122,7 +135,6 @@
         <textarea id="message" rows="4" placeholder="Message"></textarea>
         <div class="form-row">
           <button type="submit" class="btn">Send message</button>
-          <button type="button" id="downloadResume" class="btn outline">Download Resume</button>
         </div>
       </form>
       <p class="muted small">Mobile: 7906632879</p>
@@ -131,8 +143,9 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2025 Sneha Gupta — Built with • <a href="https://github.com/snehagupta279" target="_blank" rel="noopener">Source</a></p>
+      <p>© 2025 Sneha Gupta — All Rights Reserved</p>
     </div>
   </footer>
+
 </body>
 </html>
