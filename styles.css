@@ -82,8 +82,8 @@ a{color:var(--accent)}
 }
 .avatar{animation: float 6s ease-in-out infinite}
 
-/* HERO SECTION */
-.hero {
+/* PROFILE SECTION */
+.profile {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -98,12 +98,12 @@ a{color:var(--accent)}
   margin-bottom: 12px;
 }
 
-.hero-name {
+.profile-name {
   font-size: 1.8rem;
   margin: 8px 0 4px;
 }
 
-.hero-subtitle {
+.profile-subtitle {
   color: var(--muted);
   font-size: 1rem;
 }
@@ -138,10 +138,10 @@ body {
   .card {
     max-width: 1500px;   /* widen the sections too */
   }
-  .hero-name {
+  .profile-name {
     font-size: 2.4rem;   /* bigger name */
   }
-  .hero-subtitle {
+  .profile-subtitle {
     font-size: 1.2rem;
   }
 }
@@ -159,16 +159,16 @@ html {
   max-width: 1600px; /* expand actual content width */
 }
 
-.hero-name {
+.profile-name {
   font-size: 2.6rem; /* bolder main heading */
 }
 
-.hero-subtitle {
+.profile-subtitle {
   font-size: 1.25rem;
 }
 
 /* Add vertical breathing space */
-.hero {
+.profile {
   margin-top: 60px;
   margin-bottom: 40px;
 }
