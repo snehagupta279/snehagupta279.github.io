@@ -146,19 +146,7 @@ body {
   }
 }
 
-/* UPGRADE TO PREMIUM VIEW (BIGGER, BALANCED, LIKE SECOND SCREENSHOT) */
-html {
-  font-size: 19px;  /* was around 16px — now truly enlarged */
-}
-
-.container {
-  max-width: 1700px; /* was 1400 → expanded */
-}
-
-.card {
-  max-width: 1600px; /* expand actual content width */
-}
-
+/* UPGRADE TO PREMIUM VIEW (BIGGER, BALANCED) */
 .profile-name {
   font-size: 2.6rem; /* bolder main heading */
 }
